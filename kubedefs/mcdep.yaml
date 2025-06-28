@@ -11,7 +11,8 @@ spec:
       app: vpromc
   template:
     metadata:
-      app: vpromc
+      labels:
+        app: vpromc
     spec:
       containers:
       - name: vpromc
