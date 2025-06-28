@@ -11,7 +11,8 @@ spec:
       app: vproapp
   template:
     metadata:
-      app: vproapp
+      labels:
+        app: vproapp
     spec:
       containers:
       - name: vproapp
